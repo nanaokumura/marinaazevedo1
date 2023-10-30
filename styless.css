@@ -1,0 +1,111 @@
+/* Estilos gerais */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: "Poppins" , sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+    body {
+        background-image: url('fundo.jpg');
+        background-size: cover; /* Redimensiona a imagem para cobrir todo o espaço */
+        background-position: center; /* Centraliza a imagem no plano de fundo */
+    }
+    
+
+
+header {
+    background-color: #A289D9;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #BDB0D9;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.foto-pequena-redonda {
+    border-radius: 55%; /* Torna a imagem circular */
+    width: 150px; /* Largura desejada */
+    height: 150px; /* Altura desejada */
+}
+.foto-centralizada {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 20vh; /* Altura da div para ocupar a altura da tela inteira (pode ajustar conforme necessário) */
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+.imagem-acima {
+    text-align: center; /* Centraliza a imagem */
+}
+
+
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    header {
+        font-size: 24px;
+    }
+
+    nav {
+        font-size: 18px;
+    }
+}
+
+/* Estilos de projetos no portfólio */
+.project {
+    border: 1px solid #c18bf3;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+form {
+    background-color: #A289D9;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #a299fc;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0057a6;
+}
+
